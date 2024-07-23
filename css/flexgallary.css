@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 10px;
+}
+
+.tit{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-align: center;
+    padding: 50px;
+
+}
+
+.main{
+
+    display: flex;
+
+    flex-wrap: wrap;
+    /* height: 300px; */
+    gap: 5px;
+    /* flex-shrink: 3; */
+    clear: both;
+
+}
+
+img{
+    height: 300px;
+    flex-grow: 1; 
+    /* flex-basis: 100px;  */
+    object-fit: cover;
+}
